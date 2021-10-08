@@ -11,11 +11,15 @@ public void companyId() {
 public void companyAddress() {
 	System.out.println("Chennai: Tidel Park");
 }
+public void company() {
+	System.out.println("Chennai: Tidel Park");
+}
 
 public static void main(String[] args) {
 	CompanyInfo ci= new CompanyInfo();
 	ci.companyId();
 	ci.companyAddress();
 	ci.companyName();
+	ci.company();
 }
 }
